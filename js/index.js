@@ -27,7 +27,7 @@ function toggle_onclick($win, $navbar, width){
 var typed = new Typed('#typed' , {
     strings: [
         'Egi Fermana',
-        'Shabrina Febriyanti'
+        'Shabrina F.'
     ],
     typeSpeed: 50,
     backSpeed: 50,
@@ -38,15 +38,7 @@ var typed_2 = new Typed('#typed_2' , {
     strings: [
         'Nurse Student',
         'Web Developer',
-    ],
-    typeSpeed: 50,
-    backSpeed: 50,
-    loop: true
-});
-
-var typed_2 = new Typed('#typed_3' , {
-    strings: [
-        'Nurse Student',
+        'Beginner Programmer',
     ],
     typeSpeed: 50,
     backSpeed: 50,
