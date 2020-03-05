@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@font-face{font-family: Gotham Black; src: url(./font/Gotham-Black.otf);};
+@font-face{font-family: GothamBold; src: url(./font/Gotham-Bold.otf);};
+@font-face{font-family: GothamMedium; src: url(./font/GothamMedium.ttf);}
+@font-face{font-family: ArcaMajora3; src: url(./font/ArcaMajora3-Heavy.otf);};
+@font-face{font-family: ArcaMajora3Bold; src: url(./font/ArcaMajora3-Bold.otf);};
 
 body{
     margin: 0;
@@ -13,7 +18,12 @@ body{
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
-    --font-mon: 'Montserrat', sans-serif;;
+    --font-mon: 'Montserrat', sans-serif;
+    --font-gbk: 'Gotham Black';
+    --font-gbd: 'GothamBold';
+    --font-gmd: 'GothamMedium';
+    --font-arc: 'ArcaMajora3';
+    --font-arb: 'ArcaMajora3Bold';
 }
 
 /* global classes */
@@ -27,7 +37,22 @@ body{
     font: normal bold 18px var(--font-ram);
 }
 .font-mon{
-    font: normal bold 18px var(--font-mon)
+    font: normal bold 18px var(--font-mon);
+}
+.font-gbk{
+    font: normal 400 18px var(--font-gbk);
+}
+.font-gbd{
+    font: normal 300 18px var(--font-gbd);
+}
+.font-gmd{
+    font: normal bold 18px var(--font-gmd);
+}
+.font-arc{
+    font: normal bold 18px var(--font-arc);
+}
+.font-arb{
+    font: normal 18px var(--font-arb);
 }
 
 .font-size-40{
