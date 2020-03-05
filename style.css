@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @font-face{font-family: Gotham Black; src: url(./font/Gotham-Black.otf);};
-@font-face{font-family: GothamBold; src: url(./font/Gotham-Bold.otf);};
-@font-face{font-family: GothamMedium; src: url(./font/GothamMedium.ttf);}
+@font-face{font-family: Gotham-Bold; src: url(./font/Gotham-Bold.otf);};
+@font-face{font-family: Gotham-Medium; src: url(./font/GothamMedium.ttf);}
 @font-face{font-family: ArcaMajora3; src: url(./font/ArcaMajora3-Heavy.otf);};
 @font-face{font-family: ArcaMajora3Bold; src: url(./font/ArcaMajora3-Bold.otf);};
+@font-face{font-family: Modia-NonCommercial; src: url(./font/Modia-NonCommercial.otf);}
 
 body{
     margin: 0;
@@ -20,10 +21,11 @@ body{
     --font-ram: 'Rambla', sans-serif;
     --font-mon: 'Montserrat', sans-serif;
     --font-gbk: 'Gotham Black';
-    --font-gbd: 'GothamBold';
-    --font-gmd: 'GothamMedium';
+    --font-gbd: 'Gotham-Bold';
+    --font-gmd: 'Gotham-Medium';
     --font-arc: 'ArcaMajora3';
     --font-arb: 'ArcaMajora3Bold';
+    --font-mod: 'Modia-NonCommercial';
 }
 
 /* global classes */
@@ -36,8 +38,8 @@ body{
 .font-ram{
     font: normal bold 18px var(--font-ram);
 }
-.font-mon{
-    font: normal bold 18px var(--font-mon);
+.font-mod{
+    font: normal 400 18px var(--font-mod);
 }
 .font-gbk{
     font: normal 400 18px var(--font-gbk);
