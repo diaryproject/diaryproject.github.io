@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap');
 @font-face{font-family: Gotham Black; src: url(./font/Gotham-Black.otf);}
 @font-face{font-family: Gotham-Bold; src: url(./font/Gotham-Bold.otf);}
@@ -19,7 +20,7 @@ body{
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
-    --font-mon: 'Montserrat', sans-serif;
+    --font-mont: 'Montserrat', sans-serif;
     --font-gbk: 'Gotham Black';
     --font-gbd: 'Gotham-Bold';
     --font-gmd: 'Gotham-Medium';
@@ -36,6 +37,7 @@ body{
 .font-mod{font: normal 400 18px var(--font-mod);}
 .font-gbk{font: normal 400 18px var(--font-gbk);}
 .font-gbd{font: normal 300 18px var(--font-gbd);}
+.font-mont{font: normal 17px var(--font-mont);}
 .font-gmd{font: normal 17px var(--font-gmd);}
 .font-arc{font: normal 18px var(--font-arc);}
 .font-arb{font: normal 18px var(--font-arb);}
